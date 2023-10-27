@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import homeStore from "../stores/homeStore";
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import ListItems from "../components/ListItem";
 

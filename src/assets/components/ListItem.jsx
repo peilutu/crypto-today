@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
 
 const ListItem = ({ coin }) => {

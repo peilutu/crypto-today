@@ -38,7 +38,7 @@ const Show = () => {
         <Link className="relative width flex" to={"/"}>
           <img src={arrow} alt="" className="pr-4" />
           <p className="logo relative">
-            TODAY <span className="logo-round"></span>
+            CRYPTO TODAY <span className="logo-round"></span>
           </p>
         </Link>
 

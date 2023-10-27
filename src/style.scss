@@ -6,6 +6,7 @@
 
 :root {
   --color-primary: #ebe2d0;
+  --color-bright: #e5e5e5;
 }
 
 * {
@@ -45,9 +46,44 @@ a {
   color: var(--color-primary);
 }
 
+.main {
+  z-index: 20;
+}
+
 .width {
   max-width: 100rem;
   margin: 0 auto;
+}
+
+.layout {
+  position: fixed;
+}
+
+h1 {
+  // color: #ebe2d0;
+  color: var(--color-bright);
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 34.2px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -25rem;
+  top: 45vh;
+  z-index: 1;
+}
+
+.home-round {
+  width: 300px;
+  height: 300px;
+  // background: #e5e5e5ee;
+  background-color: var(--color-bright);
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 73vh;
+  left: 77vw;
 }
 
 .header {
@@ -57,8 +93,6 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  // gap: 20rem;
-
   .logo {
     font-family: Titillium Web;
     font-size: 30px;
@@ -66,6 +100,7 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 8px;
+    // background-color: #3837371d;
   }
 
   .logo-round {
@@ -76,6 +111,11 @@ a {
     top: -32%;
     right: -10%;
     background: rgba(229, 229, 229, 0.3);
+  }
+  .logo-round:hover {
+    background-color: #e5e5e59a;
+    transform: scale(1.3);
+    transition: all 1s linear;
   }
 
   // svg {
@@ -109,9 +149,14 @@ a {
   }
 }
 
+.home-container {
+  z-index: 90;
+}
+
 section {
   max-width: 80rem;
   margin: 5rem;
+  z-index: 50;
 }
 
 .welcome {
@@ -238,7 +283,7 @@ h2 {
   justify-content: center;
   gap: 4rem;
   padding: 6rem 4rem;
-
+  z-index: 20;
   border-radius: 2rem;
   background-color: #1b191eb2;
   margin-top: 4rem;
@@ -265,4 +310,24 @@ h2 {
   background-color: #ebe2d0;
   color: #151316;
   transition: all 0.1s ease-in-out;
+}
+
+// === footer ===
+.footer {
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  p {
+    color: #ebe2d0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .round {
+    // position: absolute;
+    background: #e5e5e5;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
 }

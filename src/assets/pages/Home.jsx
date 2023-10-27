@@ -14,12 +14,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-container width">
+    <div className="home-container relative width">
       {/* <Header /> */}
       <header className="header md:flex relative">
         <Link className="relative width" to={"/"}>
           <p className="logo">
-            TODAY <span className="logo-round"></span>
+            CRYPTO TO<span className="day">DAY</span>{" "}
+            <span className="logo-round"></span>
           </p>
         </Link>
 

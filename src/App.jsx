@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./assets/pages/Home";
 import { Route, Routes } from "react-router-dom";
 import Show from "./assets/pages/Show";
+import "./style.scss";
 function App() {
   return (
     <>

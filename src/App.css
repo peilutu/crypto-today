@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/sf-mono");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "SF Mono", sans-serif;
+  background: #151316;
+  color: #ebe2d0;
+}
+
+.logo .welcome {
+  color: #ebe2d0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.width {
+  max-width: 1000px;
+} */

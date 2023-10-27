@@ -15,8 +15,8 @@ const Home = () => {
 
   return (
     <div className="home-container relative width">
-      {/* <Header /> */}
-      <header className="header md:flex relative">
+      <Header search />
+      {/* <header className="header md:flex relative">
         <Link className="relative width" to={"/"}>
           <p className="logo">
             CRYPTO TO<span className="day">DAY</span>{" "}
@@ -32,7 +32,7 @@ const Home = () => {
             onChange={store.setQuery}
           />
         </div>
-      </header>
+      </header> */}
 
       {/* <svg
         className="abusolute top='50%'"

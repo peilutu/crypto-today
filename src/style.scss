@@ -47,7 +47,7 @@ a {
 }
 
 .main {
-  z-index: 20;
+  z-index: 50;
 }
 
 .width {
@@ -70,7 +70,7 @@ h1 {
   transform: rotate(-90deg);
   position: absolute;
   left: -25rem;
-  top: 45vh;
+  top: 25rem;
   z-index: 1;
 }
 
@@ -83,7 +83,7 @@ h1 {
   z-index: 1;
   position: absolute;
   top: 73vh;
-  left: 77vw;
+  left: 79vw;
 }
 
 .header {
@@ -150,13 +150,11 @@ h1 {
 }
 
 .home-container {
-  z-index: 90;
 }
 
 section {
   max-width: 80rem;
   margin: 5rem;
-  z-index: 50;
 }
 
 .welcome {
@@ -247,12 +245,25 @@ button {
 .show {
   max-width: 1000px;
   min-width: 600px;
-  margin: 5rem auto;
-  padding: 2rem;
+  margin: 0rem auto;
+  // padding: 2rem;
   text-align: center;
 
   .header {
-    padding-top: 1rem;
+    // padding-top: 1rem;
+    a {
+      align-items: center;
+
+      .small-round {
+        width: 40px;
+        height: 40px;
+        top: -5%;
+        right: 2rem;
+      }
+      .arrow {
+        width: 2rem;
+      }
+    }
   }
 }
 
@@ -272,6 +283,14 @@ h2 {
     border-radius: 50%;
   }
 }
+.back-home {
+  font-family: Titillium Web;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 8px;
+}
 
 .show-graph {
   height: 250px;
@@ -283,7 +302,7 @@ h2 {
   justify-content: center;
   gap: 4rem;
   padding: 6rem 4rem;
-  z-index: 20;
+
   border-radius: 2rem;
   background-color: #1b191eb2;
   margin-top: 4rem;

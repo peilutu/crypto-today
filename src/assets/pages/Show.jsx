@@ -32,25 +32,17 @@ const Show = () => {
 
   return (
     <div className="show">
-      {/* <Header back /> */}
+      <Header />
 
-      <header className="header">
-        <Link className="relative width flex" to={"/"}>
-          <img src={arrow} alt="" className="pr-4" />
-          <p className="logo relative">
-            CRYPTO TODAY <span className="logo-round"></span>
+      <div className="header">
+        <Link className="relative width flex pt-20" to={"/"}>
+          <img src={arrow} alt="" className="arrow pr-4 ms-8" />
+          <p className="back-home relative">
+            BACK
+            <span className="logo-round small-round"></span>
           </p>
         </Link>
-
-        <div className="home-search width">
-          {/* <input
-            type="text"
-            value={store.query}
-            placeholder="search for a coin..."
-            onChange={store.setQuery}
-          /> */}
-        </div>
-      </header>
+      </div>
 
       <section className="show-section">
         {/* <img src={store.data.image.large} width={"50px"} /> */}

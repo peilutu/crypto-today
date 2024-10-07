@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import homeStore from "../stores/homeStore";
-import arrow from "../../assets/arrow.png";
 // const Header = ({ back }) => {
 //   return (
 //     <header className="header width">
@@ -18,7 +17,7 @@ const Header = ({ search }) => {
     <header className="header md:flex relative">
       <Link className="relative width" to={"/"}>
         <p className="logo">
-          CRYPTO TO<span className="day">DAY</span>
+          CRYPTO <span className="day">DAY</span>
           <span className="logo-round"></span>
         </p>
       </Link>
